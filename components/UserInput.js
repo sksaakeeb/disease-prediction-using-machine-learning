@@ -16,7 +16,7 @@ function UserInput() {
     try {
       const response = await fetch(
         // API URL
-        "https://8d01-34-80-146-255.ngrok-free.app/predict",
+        "https://600a-34-90-140-232.ngrok-free.app/predict",
         {
           method: "POST",
           headers: {
@@ -59,7 +59,7 @@ function UserInput() {
             type="submit"
             disabled={loading}
           >
-            {loading ? "..." : "Send"}
+            {loading ? "....." : "Send"}
           </button>
         </form>
       </div>
