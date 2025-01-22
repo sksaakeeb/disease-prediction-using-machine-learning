@@ -16,7 +16,7 @@ function UserInput() {
     try {
       const response = await fetch(
         // API URL
-        "https://600a-34-90-140-232.ngrok-free.app/predict",
+        "https://e058-34-125-163-11.ngrok-free.app/predict",
         {
           method: "POST",
           headers: {
